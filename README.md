@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JobConnect – Job Portal Web Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+JobConnect is a modern job portal web application developed using Next.js, TypeScript, and Tailwind CSS. The platform provides a clean and responsive interface where users can browse job opportunities, view job details, and explore career options.
+
+This project was developed as part of a Software Developer technical assessment.
+
+---
+
+## Features
+
+- Home page with modern landing section
+- Browse available job listings
+- Dynamic Job Details page
+- About page
+- Contact page
+- Post Job page
+- Responsive user interface
+- Reusable React components
+- Clean navigation between pages
+
+---
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git & GitHub
+- GitHub Actions (CI)
+- Vercel
+
+---
+
+## Project Structure
+
+```text
+app/
+├── about/
+├── contact/
+├── jobs/
+│   └── [id]/
+├── post-job/
+├── layout.tsx
+└── page.tsx
+
+components/
+├── Navbar.tsx
+├── Hero.tsx
+├── SearchBar.tsx
+├── FeaturedJobs.tsx
+├── JobCard.tsx
+├── JobCategories.tsx
+├── TopCompanies.tsx
+└── Footer.tsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DSravya610/jobconnect.git
+```
+
+Move into the project:
+
+```bash
+cd jobconnect
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## CI/CD Pipeline
 
-To learn more about Next.js, take a look at the following resources:
+The project uses **GitHub Actions** for Continuous Integration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The workflow automatically:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Installs dependencies
+- Runs ESLint
+- Builds the application
+- Verifies the project on every push to the `main` branch
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application is deployed on **Vercel**.
+
+**Live Demo**
+
+https://jobconnect-cc2e6c6jb-sravya3.vercel.app
+
+---
+
+## GitHub Repository
+
+https://github.com/DSravya610/jobconnect
+
+---
+
+## Future Enhancements
+
+- User authentication
+- Job application functionality
+- Employer dashboard
+- Search and filtering
+- Database integration
+- User profiles
+- Bookmark jobs
+
+---
+
+## Author
+
+**Dodike Sravya**
+
+Software Developer Candidate
+
+---
+
+## License
+
+This project was created for educational and technical assessment purposes.
