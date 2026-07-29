@@ -14,6 +14,7 @@ export default function JobsPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <JobCard
+              id={1}
               title="Frontend Developer"
               company="Google"
               location="Hyderabad"
@@ -21,6 +22,7 @@ export default function JobsPage() {
             />
 
             <JobCard
+              id={2}
               title="Java Developer"
               company="Microsoft"
               location="Bengaluru"
@@ -28,6 +30,7 @@ export default function JobsPage() {
             />
 
             <JobCard
+              id={3}
               title="Python Developer"
               company="Amazon"
               location="Hyderabad"
@@ -35,6 +38,7 @@ export default function JobsPage() {
             />
 
             <JobCard
+              id={4}
               title="Data Analyst"
               company="Infosys"
               location="Pune"
@@ -42,6 +46,7 @@ export default function JobsPage() {
             />
 
             <JobCard
+              id={5}
               title="AI Engineer"
               company="OpenAI"
               location="Remote"
@@ -49,6 +54,7 @@ export default function JobsPage() {
             />
 
             <JobCard
+              id={6}
               title="Full Stack Developer"
               company="TCS"
               location="Chennai"
